@@ -1,0 +1,78 @@
+:root {
+    --vanilla : #FEFAE0 ;
+    --caramel : #BC6C25 ;
+    --olive : #606C38;
+}
+
+body {
+    background-color: var(--vanilla);
+}
+
+header {
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar {
+    display: flex;
+    width: 50%;
+}
+
+.nav-bar ul {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+
+.nav-bar li {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+}
+
+.nav-bar li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.connexion {
+    list-style-type: none;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.login {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 8px;
+    border: var(--olive) solid;
+}
+
+.login:hover {
+    background-color: var(--caramel);
+    border: none;
+    cursor: pointer;
+}
+
+.Sign-up {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border-radius: 8px;
+    border: var(--olive) solid;
+}
+
+.Sign-up:hover {
+    background-color: var(--caramel);
+    border: none;
+    cursor: pointer;
+}
