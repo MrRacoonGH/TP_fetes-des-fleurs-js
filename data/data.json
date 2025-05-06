@@ -1,0 +1,60 @@
+{
+    "special_offers": {
+      "title": "Spécial fêtes des Mères",
+      "link_text": "Voir plus",
+      "products": [
+        {
+          "name": "Pot de fleur",
+          "price": "20$",
+          "image_alt": "Fleur rouge exotique"
+        },
+        {
+          "name": "Pot de fleur",
+          "price": "20$",
+          "image_alt": "Fleurs bleues et jaunes veinées"
+        },
+        {
+          "name": "Pot de fleur",
+          "price": "20$",
+          "image_alt": "Fleur rouge brillante en forme de cœur"
+        }
+      ]
+    },
+    "spring_flowers": {
+      "title": "Nos fleurs pour le printemps",
+      "link_text": "Découvrir la selection",
+      "products": [
+        {
+          "name": "Pot de fleur",
+          "price": "20$",
+          "image_alt": "Jonquilles jaunes"
+        },
+        {
+          "name": "Pot de fleur",
+          "price": "20$",
+          "image_alt": "Crocus violets"
+        },
+        {
+          "name": "Pot de fleur",
+          "price": "20$",
+          "image_alt": "Jacinthes bleues"
+        },
+        {
+          "name": "Pot de fleur",
+          "price": "20$",
+          "image_alt": "Fleur rose et jaune en étoile"
+        },
+        {
+          "name": "Pot de fleur",
+          "price": "20$",
+          "image_alt": "Perce-neige blancs"
+        },
+        {
+          "name": "Pot de fleur",
+          "price": "20$",
+          "image_alt": "Fleurs blanches mouchetées de violet"
+        }
+      ]
+    }
+  }
+  

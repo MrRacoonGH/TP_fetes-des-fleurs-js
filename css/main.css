@@ -48,6 +48,8 @@ header {
 }
 
 .login {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 35px;
@@ -63,16 +65,58 @@ header {
 }
 
 .Sign-up {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 35px;
     padding-right: 35px;
     border-radius: 8px;
-    border: var(--olive) solid;
+    background-color: var(--caramel);
+    color: white;
+    cursor: pointer;
+
 }
 
-.Sign-up:hover {
+.carousel{
+    height: 370px;
+    background-image: url('../assets/fleuriste.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.info {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.info h2 {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 48px;
+    color: white;
+}
+
+.info p {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 32px;
+    font-weight: lighter;
+    color: white;
+}
+
+.info li {
+    margin-top: 37px;
+    width: 170px;
+    list-style-type: none;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-right: 25px;
+    padding-left: 25px;
+    color: white;
     background-color: var(--caramel);
-    border: none;
+    border-radius: 8px;
     cursor: pointer;
 }
